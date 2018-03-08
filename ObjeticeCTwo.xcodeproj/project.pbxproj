@@ -15,6 +15,7 @@
 		88CD67E320519CF300F09A47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CD67E220519CF300F09A47 /* main.m */; };
 		88CD67ED20519CF300F09A47 /* ObjeticeCTwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CD67EC20519CF300F09A47 /* ObjeticeCTwoTests.m */; };
 		88CD67F820519CF300F09A47 /* ObjeticeCTwoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CD67F720519CF300F09A47 /* ObjeticeCTwoUITests.m */; };
+		88CD680C2051AF9300F09A47 /* TableDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CD680B2051AF9300F09A47 /* TableDataViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		88CD67F320519CF300F09A47 /* ObjeticeCTwoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjeticeCTwoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CD67F720519CF300F09A47 /* ObjeticeCTwoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjeticeCTwoUITests.m; sourceTree = "<group>"; };
 		88CD67F920519CF300F09A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88CD680A2051AF9300F09A47 /* TableDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableDataViewController.h; sourceTree = "<group>"; };
+		88CD680B2051AF9300F09A47 /* TableDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableDataViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +104,10 @@
 		88CD67D220519CF300F09A47 /* ObjeticeCTwo */ = {
 			isa = PBXGroup;
 			children = (
+				88CD68062051AE4F00F09A47 /* TableView */,
+				88CD68052051ADBA00F09A47 /* Home */,
 				88CD67D320519CF300F09A47 /* AppDelegate.h */,
 				88CD67D420519CF300F09A47 /* AppDelegate.m */,
-				88CD67D620519CF300F09A47 /* ViewController.h */,
-				88CD67D720519CF300F09A47 /* ViewController.m */,
 				88CD67D920519CF300F09A47 /* Main.storyboard */,
 				88CD67DC20519CF300F09A47 /* Assets.xcassets */,
 				88CD67DE20519CF300F09A47 /* LaunchScreen.storyboard */,
@@ -130,6 +133,24 @@
 				88CD67F920519CF300F09A47 /* Info.plist */,
 			);
 			path = ObjeticeCTwoUITests;
+			sourceTree = "<group>";
+		};
+		88CD68052051ADBA00F09A47 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				88CD67D620519CF300F09A47 /* ViewController.h */,
+				88CD67D720519CF300F09A47 /* ViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		88CD68062051AE4F00F09A47 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				88CD680A2051AF9300F09A47 /* TableDataViewController.h */,
+				88CD680B2051AF9300F09A47 /* TableDataViewController.m */,
+			);
+			path = TableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88CD67D820519CF300F09A47 /* ViewController.m in Sources */,
+				88CD680C2051AF9300F09A47 /* TableDataViewController.m in Sources */,
 				88CD67E320519CF300F09A47 /* main.m in Sources */,
 				88CD67D520519CF300F09A47 /* AppDelegate.m in Sources */,
 			);
