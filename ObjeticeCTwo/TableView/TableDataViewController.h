@@ -10,4 +10,8 @@
 
 @interface TableDataViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITableView *dataTableView;
+
+
+
 @end
